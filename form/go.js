@@ -28,11 +28,19 @@ var mi = {
             {}
          ]
          },
-        {view:"template",
+        {
+         view: "layout",
          height: 80,
-         css: "my_name",
-         template:"Евтюшкин Алексей"},
-
+         cols: [
+          {},
+          {view:"template",
+           width: 600,
+           css: "my_name",
+           template:"Евтюшкин Алексей"},
+           {}
+         ]
+         },
+ 
         {view:"template", 
          height: 90,
          css: "my_spec",
