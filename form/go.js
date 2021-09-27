@@ -16,6 +16,7 @@ var mi = {
       rows: [
         {
          view: "layout",
+           width: 200,
          height: 200,
          padding: 0,
          margin: 0,
