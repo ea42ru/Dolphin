@@ -40,8 +40,9 @@ var mi = {
            {}
          ]
          },
- 
+
         {view:"template", 
+         id:"my_spec",
          height: 90,
          css: "my_spec",
          template:"— программист, инженер-электронщик, ..."},
@@ -62,4 +63,8 @@ var mi = {
   };
 
 webix.ui(mi);
+
+var tt = '{view:"template", template:"eeeeee"};';
+$$("my_spec").Val(tt);
+$$("my_spec").reinit();
 }
