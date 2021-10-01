@@ -61,6 +61,8 @@ var mi = {
           template: param.about
         },
         
+        {},
+
         {
           view: "layout",
           type: "clean",
@@ -133,11 +135,8 @@ var mi = {
 
         {
           view:"template",
-          css: "my_font",
           template: param.copyright
-         },
-
-        {}
+         }
       ]
     }  
   ]
