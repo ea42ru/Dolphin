@@ -73,7 +73,7 @@ var mi = {
             {
               view:"button",
               template: "<div><img src=form/ico/articles.png></div>",
-              click: function(){onRedirectItem("/articles/index.html")}
+              click: function(){onRedirectItem("/data/articles.html")}
             },
 
             { 
