@@ -72,14 +72,8 @@ var mi = {
             {},
             {
               view:"button",
-              template: "<div><img src=form/ico/item.png></div>",
-              on: {
-                onSelectChange: function(){
-                  $$("soc_msg").clearAll();
-                  $$("soc_msg").Val({view:"template", template: "<div><img src=form/ico/viber.png></div>"});
-                  $$("soc_msg").refresh();
-                }
-              }
+              template: "<div><img src=form/ico/articles.png></div>",
+              click: function(){onRedirectItem("/articles/index.html")}
             },
 
             { 
@@ -104,6 +98,12 @@ var mi = {
               view: "button",
               template: "<div><img src=form/ico/skype.png></div>",
               click: function(){$$("soc_msg").setHTML(param.soc["skype"])}
+            },
+
+            {
+              view: "button",
+              template: "<div><img src=form/ico/vk.png></div>",
+              click: function(){$$("soc_msg").setHTML(param.soc["vk"])}
             },
 
             {
@@ -143,10 +143,6 @@ var mi = {
 };
 
 webix.ui(mi);
-}
-
-function onClickItem(ItemName) {
-  $$("soc_msg").setHTML(param[ItemName])
 }
 
 function onRedirectItem(dataRedir) {
