@@ -17,8 +17,8 @@ param_articles = {
   main: "Здесь я буду оставлять свои статьи с деятельность не связанной непосредственно со своей работой. Семья, хобби, спорт.",
   list:[ 
     {
-	name: "Почему я сделай этой сайт так",
-	path: "pochemu-ya-sdelay-etoy-sayt-tak"
+	name: "Почему я сделал этой сайт так",
+	path: "pochemu-ya-sdelal-etoy-sayt-tak"
     },
     
 	{
