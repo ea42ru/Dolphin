@@ -14,8 +14,8 @@ font-weight: 400;
 font-size: 16px;
 color: #000000;
 src: local('Yanone Kaffeesatz'), local('YanoneKaffeesatz-Regular'),
-url(../lib/yanonekaffeesatz.woff) format('woff'),
-url(../lib/yanonekaffeesatz.ttf) format('truetype');
+url(../lib/fonts/yanonekaffeesatz.woff) format('woff'),
+url(../lib/fonts/yanonekaffeesatz.ttf) format('truetype');
 }
 
 .my_spec {
@@ -26,8 +26,8 @@ font-size: 24px;
 font-weight: bold;
 color: #808080;
 src: local('Yanone Kaffeesatz'), local('YanoneKaffeesatz-Regular'),
-url(../lib/yanonekaffeesatz.woff) format('woff'),
-url(../lib/yanonekaffeesatz.ttf) format('truetype');
+url(../lib/fonts/yanonekaffeesatz.woff) format('woff'),
+url(../lib/fonts/yanonekaffeesatz.ttf) format('truetype');
 }
 
 .my_name {
@@ -38,6 +38,24 @@ font-size: 52px;
 text-shadow: 4px 4px 4px #aaa;
 color: #000000;
 src: local('Yanone Kaffeesatz'), local('YanoneKaffeesatz-Regular'),
-url(../lib/yanonekaffeesatz.woff) format('woff'),
-url(../lib/yanonekaffeesatz.ttf) format('truetype');
+url(../lib/fonts/yanonekaffeesatz.woff) format('woff'),
+url(../lib/fonts/yanonekaffeesatz.ttf) format('truetype');
 }
+
+.bt_1 button.webix_button{
+background: #396D9E;
+background: -moz-linear-gradient(top, #5D91C3 0% , #396D9E 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0,#5D91C3), color-stop(1, #396D9E));
+border:1px solid #396D9E;
+text-shadow: 0 -1px #134471;
+box-shadow: inset 0px 1px 1px #8eb3d5;
+-webkit-box-shadow: inset 0px 1px 1px #8eb3d5;
+color:#FFFFFF;
+font-size: 15px;
+}
+
+.bt_1 button:active{
+background: #396D9E !important;
+}
+
+
