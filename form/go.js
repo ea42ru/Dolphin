@@ -73,7 +73,7 @@ var mi = {
             {
               view:"button",
               template: "<div><img src=form/ico/articles.png></div>",
-              click: function(){onRedirectItem("/data/articles.html")}
+              click: function(){onRedirectItem("/articles.html")}
             },
 
             { 
@@ -131,12 +131,8 @@ var mi = {
             },
             {}
           ]
-		},
+		}
 
-        {
-          view:"template",
-          template: param.copyright
-         }
       ]
     }  
   ]
